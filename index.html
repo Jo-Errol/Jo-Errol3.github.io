@@ -35,7 +35,7 @@
 						<ul id="jumbotron-ul">
 							<li>69003 LYON</li>
 							<li>06.50.94.51.49</li>
-							<li>jonathan.bonnassieux@gmail.com</li>
+							<li>jonathan.bonnassieux@gmail.com <a href="#contact"><i class="material-icon">markunread_mailbox</i></a></li>
 						</ul>
 						<p><b>Pour me suivre sur les réseaux professionnels:</b> <a href="http://www.linkedin.com/in/jonathan-b-070391" target="_blank">
 							<i class="fab fa-linkedin"></i>Linkedin</a></p>
@@ -388,15 +388,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="jumbotron">
+		<div class="jumbotron" id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-l-8 col-md-8 col-sm-12">
 						<!--Formulaire issu du site https://formspree.io-->
 						<form method="POST" action="https://formspree.io/jonathan.bonnassieux@gmail.com">
-  							<input type="email" name="email" placeholder="Votre email">
-  							<textarea name="message" placeholder="Ici, votre message"></textarea>
-  							<button type="submit">Envoyer</button>
+  							<table>
+								<tr><td><input type="email" name="email" placeholder="Votre email"></td></tr>
+  								<tr><td><textarea name="message" placeholder="Ici, votre message"></textarea></td></tr>
+  								<tr><td><button type="submit">Envoyer</button></td></tr>
+							</table>
 						</form>
 					</div>
 				</div>
